@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+
+div.container-fluid{
+    background-color: grey;
+}
+img.img-fluid{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: green;
+}
+
+ul{
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-bottom: black thick solid;
+}
+
+li{
+    display:inline-block;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 18px;
+}
