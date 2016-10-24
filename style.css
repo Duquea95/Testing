@@ -21,11 +21,17 @@ li{
     display:inline-block;
     padding-left: 2vw;
     padding-right: 2vw;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 /* Content CSS */
 
-div.col-lg-8{
-    /*float: none;*/
+div#content-area{
+    background-color: red;
+}
+div.content{
+    background-color: lightblue;
+    margin-top: 5vh;
+    border-top: black thin solid;
+    border-bottom: black thin solid;
 }
