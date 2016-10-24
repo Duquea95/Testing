@@ -1,10 +1,9 @@
-body{
+/* Header CSS */
+div#header{
+    background-color: grey;
     text-align: center;
 }
 
-div.container-fluid{
-    background-color: grey;
-}
 img.img-fluid{
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -23,4 +22,10 @@ li{
     padding-left: 2vw;
     padding-right: 2vw;
     font-size: 18px;
+}
+
+/* Content CSS */
+
+div.col-lg-8{
+    /*float: none;*/
 }
